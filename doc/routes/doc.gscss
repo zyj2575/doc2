@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  cursor: pointer;
+}
+
+.relative {
+  position: relative;
+}
+
+.full {
+  width: 100%;
+}
+

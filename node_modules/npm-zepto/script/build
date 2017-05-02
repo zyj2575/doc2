@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+cd zepto
+npm install
+npm run-script dist
+cd ..
+
+if [ -f index.js ]; then
+  rm index.js;
+fi
+
+cat zepto/dist/zepto.js _index.js > index.js
