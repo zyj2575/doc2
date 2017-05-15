@@ -8,7 +8,7 @@ module.exports =
   baseUrl: 'https://www.baidu.com'
   apis: [{
     title: '子模板名称',
-    url: '/url'
+    url: '/url/url'
     successResponse: success
       amount: type Number, '注释'
       isShowExperienceGold: type Boolean, '注释'
